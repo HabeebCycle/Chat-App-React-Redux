@@ -1,0 +1,24 @@
+.Header {
+  display: flex;
+  align-items: flex-start;
+  padding: 1rem;
+  border-bottom: 1px solid rgba(189, 189, 192, 0.2);
+}
+.Header__name {
+  color: #fff;
+  font-size: small;
+}
+.Header__pic {
+  width: 100px;
+  border-radius: 50%;
+}
+.Header__details {
+  padding: 0 0 0 1rem;
+}
+
+/* not small devices  */
+@media (min-width: 576px) {
+  .Header__name {
+    font-size: large;
+  }
+}
